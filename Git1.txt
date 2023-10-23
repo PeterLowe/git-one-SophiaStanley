@@ -2,8 +2,15 @@ Init
 git init is used to create a new repository in the place where you started your Git Bash from. It creates a hidden .git folder which is the directory for this project. It will also create an empty branch for you to work in. It will mainly be used at the beginning of a project, but you can use it in an existing repository without issue.
 Syntax: git init
  
+Add
+git add is used to bring a file found in your bash folder to the ‘stage,’ making it ready for the next commit. This acts as a ‘screenshot’ of the file, so if you update it before committing you will need to use this command to stage it again.
+Syntax: git add
  
  
+ 
+Status
+git status is used to show the details of your repository. This includes what branch you’re currently on and details on your files, for example if they’ve been modified but not staged. If you have a remote repository, it will also tell you how much this version of the repository differs between the remote one.
+Syntax: git status
  
  
  
