@@ -1,2 +1,11 @@
-git init
+Init
+git init is used to create a new repository in the place where you started your Git Bash from. It creates a hidden .git folder which is the directory for this project. It will also create an empty branch for you to work in. It will mainly be used at the beginning of a project, but you can use it in an existing repository without issue.
+Syntax: git init
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
