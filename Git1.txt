@@ -19,6 +19,10 @@ git commit is used to create a save point for your repository.
 Push
 The git push command updates any remote repositories with the most recent commit to ensure that they’re both up to date. 
  
+Remote
+You can use git remote to create additional versions of your repository that exist outside of your local drive. 
+Syntax: git remote add origin [URL] (adding)
+git remote -v (list of remote repositories)
  
 Log
 git log displays a list of every commit you have made in this repository, starting from the earliest. Depending on your screen size, this can fill up the whole screen after about 5 commits, after which you can press the space bar to scroll down to the end, and q to quit out of the list.
@@ -28,4 +32,3 @@ Stash
 git stash is used for when you want to create a record of your current directory, without needing to commit. You can use git stash pop to retrieve the contents from a stash to put in the repository.
 Syntax: git stash
  
-
