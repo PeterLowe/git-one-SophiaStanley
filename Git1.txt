@@ -24,6 +24,8 @@ Log
 git log displays a list of every commit you have made in this repository, starting from the earliest. Depending on your screen size, this can fill up the whole screen after about 5 commits, after which you can press the space bar to scroll down to the end, and q to quit out of the list.
 Syntax: git log
  
-
-
+Stash
+git stash is used for when you want to create a record of your current directory, without needing to commit. You can use git stash pop to retrieve the contents from a stash to put in the repository.
+Syntax: git stash
+ 
 
