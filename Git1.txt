@@ -3,7 +3,7 @@ git init is used to create a new repository in the place where you started your 
 Syntax: git init
  
 Add
-git add is used to bring a file found in your bash folder to the ‘stage,’ making it ready for the next commit. This acts as a ‘screenshot’ of the file, so if you update it before committing you will need to use this command to stage it again.
+git add is used to bring a file found in your bash folder to the ‘stage,’ making it ready for the next commit. This acts as a ‘screenshot’ of the file, so if you update it before committing you will need to use this command to stage it again. You can check if it worked with the git status command, after which the file will be highlighted in green if it’s staged.
 Syntax: git add
  
  
@@ -12,7 +12,18 @@ Status
 git status is used to show the details of your repository. This includes what branch you’re currently on and details on your files, for example if they’ve been modified but not staged. If you have a remote repository, it will also tell you how much this version of the repository differs between the remote one.
 Syntax: git status
  
+Commit
+git commit is used to create a save point for your repository.
  
  
+Push
+The git push command updates any remote repositories with the most recent commit to ensure that they’re both up to date. 
  
+ 
+Log
+git log displays a list of every commit you have made in this repository, starting from the earliest. Depending on your screen size, this can fill up the whole screen after about 5 commits, after which you can press the space bar to scroll down to the end, and q to quit out of the list.
+Syntax: git log
+ 
+
+
 
