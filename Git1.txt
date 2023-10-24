@@ -13,16 +13,18 @@ git status is used to show the details of your repository. This includes what br
 Syntax: git status
  
 Commit
-git commit is used to create a save point for your repository.
+git commit is used to create a save point for your repository. If adding is a screenshot of your files, then committing could be seen as a screenshot of your whole repository. You cannot commit until you’ve made some changes since the previous time, such as by staging another file.
+Syntax: git commit
  
  
 Push
-The git push command updates any remote repositories with the most recent commit to ensure that they’re both up to date. 
+The git push command updates any remote repositories with the most recent commit to ensure that they’re both up to date, by sending all of the new content within the local copy to the remote one. You should specify which repository you want to update, as if you have more than one remote it will either be sent to the one configured as the ‘default’ or the one named origin.
+Syntax: git push [repository]
  
 Remote
-You can use git remote to create additional versions of your repository that exist outside of your local drive. 
-Syntax: git remote add origin [URL] (adding)
-git remote -v (list of remote repositories)
+You can use git remote to create additional versions of your repository that exist outside of your local drive. For creating a new one, you will need to include a name and the URL of where the new copy will be stored. Simply typing ‘git remote’ brings up a list of your remote copies, and adding -v gives a more detailed list.
+Syntax: git remote add [name] [URL]
+ 
  
 Log
 git log displays a list of every commit you have made in this repository, starting from the earliest. Depending on your screen size, this can fill up the whole screen after about 5 commits, after which you can press the space bar to scroll down to the end, and q to quit out of the list.
@@ -32,3 +34,8 @@ Stash
 git stash is used for when you want to create a record of your current directory, without needing to commit. You can use git stash pop to retrieve the contents from a stash to put in the repository.
 Syntax: git stash
  
+Branch
+git branch can be used to create another branch in a repository. This is a great way of sectioning off certain parts to do different things rather than having everything combined into one branch. 
+Syntax: git branch [name]
+ 
+
