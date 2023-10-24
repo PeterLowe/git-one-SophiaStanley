@@ -38,4 +38,9 @@ Branch
 git branch can be used to create another branch in a repository. This is a great way of sectioning off certain parts to do different things rather than having everything combined into one branch. 
 Syntax: git branch [name]
  
+Checkout
+If you’re working with multiple branches, you can use the git checkout command to specify which one you want to be on currently. Make sure your current branch has been fully committed or stashed, otherwise it will not allow you to run the command.
+Syntax: git checkout [branch]
+ 
+ 
 
